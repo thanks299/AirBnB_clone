@@ -1,0 +1,67 @@
+/* Styling for Amenities section */
+.places .amenities {
+    margin-top: 40px; /* Adds top margin for spacing */
+    /* Add any additional styling for the Amenities section here */
+}
+
+/* Styling for the Amenities title */
+.places .amenities h2 {
+    font-size: 16px; /* Sets font size for the title */
+    border-bottom: 1px solid #DDDDDD; /* Adds bottom border with light gray color */
+    /* Add any additional styling for the Amenities title here */
+}
+
+/* Styling for the Amenities list */
+.places .amenities ul {
+    list-style-type: none; /* Removes default list style */
+    padding: 0; /* Removes default padding */
+    /* Add any additional styling for the Amenities list here */
+}
+
+/* Styling for individual Amenities items */
+.places .amenities li {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically */
+    margin-top: 10px; /* Adds top margin */
+    list-style-type: none; /* Removes default list style */
+    /* Add any additional styling for individual Amenities items here */
+}
+
+/* Styling for Reviews section */
+.places .reviews {
+    margin-top: 40px; /* Adds top margin for spacing */
+    /* Add any additional styling for the Reviews section here */
+}
+
+/* Styling for the Reviews title */
+.places .reviews h2 {
+    font-size: 16px; /* Sets font size for the title */
+    border-bottom: 1px solid #DDDDDD; /* Adds bottom border with light gray color */
+    /* Add any additional styling for the Reviews title here */
+}
+
+/* Styling for the Reviews list */
+.places .reviews ul {
+    list-style-type: none; /* Removes default list style */
+    padding: 0; /* Removes default padding */
+    /* Add any additional styling for the Reviews list here */
+}
+
+/* Styling for individual Reviews items */
+.places .reviews li {
+    list-style-type: none; /* Removes default list style */
+    /* Add any additional styling for individual Reviews items here */
+}
+
+/* User/Date description styling */
+.places .reviews h3 {
+    font-size: 14px; /* Sets font size */
+    font-weight: bold; /* Sets font weight to bold */
+    /* Add any additional styling for User/Date description here */
+}
+
+/* Styling for the text in a Review */
+.places .reviews p {
+    font-size: 12px; /* Sets font size */
+    /* Add any additional styling for the text in a Review here */
+}

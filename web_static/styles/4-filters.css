@@ -1,0 +1,31 @@
+/* Styling for the filters */
+.filters {
+    background-color: #FFFFFF; /* Set background color to white */
+    height: 70px; /* Set the height of the filters */
+    width: 100%; /* Set the width to 100% of the viewport */
+    border: 1px solid #DDDDDD; /* Add a gray border */
+    border-radius: 4px; /* Apply rounded corners */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: right; /* Align items to the right */
+}
+
+/* Styling for buttons */
+button {
+    font-size: 18px; /* Set font size */
+    background-color: #FF5A5F; /* Set background color to red */
+    color: #FFFFFF; /* Set text color to white */
+    height: 48px; /* Set the height of the button */
+    width: 20%; /* Set the width to 20% of its container */
+    border-radius: 4px; /* Apply rounded corners */
+    margin-right: 30px; /* Add right margin */
+    text-align: center; /* Center text horizontally */
+    opacity: 1.0; /* Set full opacity */
+    filter: alpha(opacity=100); /* Ensure full opacity in IE8 */
+}
+
+/* Button hover effect */
+button:hover {
+  opacity: 0.9; /* Reduce opacity on hover */
+    filter: alpha(opacity=100); /* Ensure full opacity in IE8 */
+}

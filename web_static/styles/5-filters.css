@@ -1,0 +1,47 @@
+/* Styling for the filters section */
+section.filters {
+    background-color: white; /* Set background color to white */
+    height: 70px; /* Set the height of the filters section */
+    width: 100%; /* Set the width to 100% of the viewport */
+    border: 1px solid #DDDDDD; /* Add a 1px solid border with light gray color */
+    border-radius: 4px; /* Apply rounded corners */
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Styling for the button inside the filters section */
+section.filters button {
+    font-size: 18px; /* Set font size */
+    background-color: #FF5A5F; /* Set background color to red */
+    color: #FFFFFF; /* Set text color to white */
+    height: 48px; /* Set the height of the button */
+    width: 20%; /* Set the width to 20% of its container */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Apply rounded corners */
+    margin-right: 30px; /* Add right margin */
+}
+
+/* Styling for button hover effect */
+section.filters button:hover {
+    opacity: 90%; /* Reduce opacity on hover */
+}
+
+/* Styling for the locations and amenities sections */
+.locations,
+.amenities {
+    height: 100%; /* Set height to 100% */
+    width: 25%; /* Set width to 25% of its container */
+    border-right: 1px solid #DDDDDD; /* Add a border on the right side with light gray color */
+}
+
+/* Locations and amenities headings style */
+.locations h3,
+.amenities h3 {
+    font-weight: 600; /* Set font weight to bold */
+}
+
+/* Locations and amenities subheadings style */
+.locations h4,
+.amenities h4 {
+    font-weight: 400; /* Set font weight to normal */
+    font-size: 14px; /* Set font size */
+}

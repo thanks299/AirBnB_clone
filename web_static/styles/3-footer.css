@@ -1,0 +1,12 @@
+/* Styling for the footer */
+footer {
+    color: white; /* Set text color to white */
+    height: 60px; /* Set the height of the footer */
+    width: 100%; /* Set the width to 100% of the viewport */
+    border-top: 1px solid #CCC; /* Add a top border with a light gray color */
+    position: fixed; /* Fix the footer at the bottom of the viewport */
+    bottom: 0; /* Align the footer to the bottom */
+    text-align: center; /* Center-align the text horizontally */
+    line-height: 60px; /* Vertically center the text within the footer */
+    /* Add any additional styling here */
+}

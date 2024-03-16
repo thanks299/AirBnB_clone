@@ -1,0 +1,102 @@
+/* Styling for the filters section */
+section.filters {
+    background-color: white; /* Set background color to white */
+    height: 70px; /* Set the height of the filters section */
+    width: 100%; /* Set the width to 100% of the viewport */
+    border: 1px solid #DDDDDD; /* Add a border with light gray color */
+    border-radius: 4px; /* Apply rounded corners */
+    justify-content: center; /* Center items horizontally */
+    /* Add any additional styling here for filters section */
+}
+
+/* Styling for the button inside the filters section */
+section.filters button {
+    font-size: 18px; /* Set font size */
+    background-color: #FF5A5F; /* Set background color to red */
+    color: #FFFFFF; /* Set text color to white */
+    height: 48px; /* Set the height of the button */
+    width: 20%; /* Set the width to 20% of its container */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Apply rounded corners */
+    margin-right: 30px; /* Add right margin */
+    /* Add any additional styling here for buttons */
+}
+
+/* Styling for button hover effect */
+section.filters button:hover {
+    opacity: 90%; /* Reduce opacity on hover */
+    /* Add any additional hover effect styling here */
+}
+
+/* Styling for the locations and amenities sections */
+.locations,
+.amenities {
+    height: 100%; /* Set height to 100% */
+    width: 25%; /* Set width to 25% of its container */
+    border-right: 1px solid #DDDDDD; /* Add a border on the right side with light gray color */
+    /* Add any additional styling here for locations and amenities sections */
+}
+
+/* Locations and amenities headings style */
+.locations h3,
+.amenities h3 {
+    font-weight: 600; /* Set font weight to bold */
+    /* Add any additional styling here for headings */
+}
+
+/* Locations and amenities subheadings style */
+.locations h4,
+.amenities h4 {
+    font-weight: 400; /* Set font weight to normal */
+    font-size: 14px; /* Set font size */
+    /* Add any additional styling here for subheadings */
+}
+
+/* Styling for the contextual dropdown */
+.popover {
+    display: none; /* Hide the dropdown by default */
+    position: absolute; /* Position absolutely */
+    background-color: #FAFAFA; /* Set background color */
+    width: 100%; /* Set width to 100% */
+    border: 1px solid #DDDDDD; /* Add border with light gray color */
+    border-radius: 4px; /* Apply rounded corners */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+/* Display dropdown when parent element is hovered */
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block; /* Show the dropdown on hover */
+}
+
+/* Styling for individual items within the dropdown */
+.popover li {
+    padding: 10px; /* Add padding */
+    border-bottom: 1px solid #DDDDDD; /* Add bottom border with light gray color */
+}
+
+/* Styling for the state heading within the dropdown */
+.locations h2 {
+    font-size: 16px; /* Set font size */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styling for the top-level ul within the dropdown */
+.popover > ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    border-radius: 4px; /* Apply rounded corners */
+}
+
+/* Styling for items within nested ul elements */
+.popover ul li {
+    padding-left: 20px; /* Add left padding */
+}
+
+/* Styling for nested ul elements (for locations) */
+.popover ul ul {
+    border-radius: 4px; /* Apply rounded corners */
+    border: 1px solid #DDDDDD; /* Add border with light gray color */
+}
