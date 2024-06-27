@@ -11,6 +11,7 @@ class City(BaseModel):
         state_id (str): The ID of the associated State.
         name (str): The name of the City.
     """
+
     def __init__(self, *args, **kwargs):
         """Initializes a new instance of City.
 

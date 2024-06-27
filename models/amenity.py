@@ -10,6 +10,7 @@ class Amenity(BaseModel):
     Attributes:
         name (str): The name of the Amenity.
     """
+
     def __init__(self, *args, **kwargs):
         """Initializes a new instance of Amenity.
 

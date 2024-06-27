@@ -55,7 +55,6 @@ class FileStorage:
                     class_name = obj_data["__class__"]
                     del obj_data["__class__"]
                     if class_name not in globals():
-                        # If the class is not in globals, you may want to handle this case
                         continue
                     model_class = globals()[class_name]
                     self.new(model_class(**obj_data))

@@ -30,7 +30,7 @@ class BaseModel:
             models.storage.new(self)
 
     def __str__(self):
-        """Returns a human-readable string representation of the BaseModel instance."""
+        """Returns a human-readable string represent the BaseModel instance."""
         class_name = self.__class__.__name__
         return "[{}] ({}) {}".format(class_name, self.id, self.__dict__)
 
@@ -40,7 +40,7 @@ class BaseModel:
         models.storage.save()
 
     def to_dict(self):
-        """Returns a dictionary representation of the BaseModel instance."""
+        """Returns a dictionary represent the BaseModel instance."""
         result_dict = self.__dict__.copy()
         result_dict['__class__'] = type(self).__name__
         result_dict['created_at'] = self.created_at.isoformat()
